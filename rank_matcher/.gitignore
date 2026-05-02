@@ -1,0 +1,7 @@
+data/input/*
+data/output/*
+!data/input/.gitkeep
+!data/output/.gitkeep
+*.xlsx
+*.xls
+*.csv

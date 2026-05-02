@@ -1,0 +1,18 @@
+input:
+  input_dir: data/input
+  alias_map_file: data/input/alias_map.csv
+
+file_patterns:
+  launch_file_keyword: "漫剧导出"
+  free_rank_keyword: "免费漫剧"
+  paid_rank_keyword: "付费漫剧"
+
+output:
+  excel_file: data/output/rank_match_result.xlsx
+  json_file: data/output/rank_match_result.json
+
+matching:
+  fuzzy_threshold: 90
+
+date:
+  target_date: null
